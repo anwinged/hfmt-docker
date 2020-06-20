@@ -1,0 +1,4 @@
+executable:
+  ghc-options: -Wall -static -threaded -O2 -fPIC
+  cc-options: -static
+  ld-options: -static -pthread
